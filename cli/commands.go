@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/mattes/migrate"
-	_ "github.com/mattes/migrate/database/stub" // TODO remove again
-	_ "github.com/mattes/migrate/source/file"
+	"github.com/OrbotixInc/migrate"
+	_ "github.com/OrbotixInc/migrate/database/stub" // TODO remove again
+	_ "github.com/OrbotixInc/migrate/source/file"
 )
 
 func gotoCmd(m *migrate.Migrate, v uint) {

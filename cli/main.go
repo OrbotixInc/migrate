@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/mattes/migrate"
+	"github.com/OrbotixInc/migrate"
 )
 
 // set main log
